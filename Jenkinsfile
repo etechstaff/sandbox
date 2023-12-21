@@ -6,7 +6,7 @@ pipeline {
 			    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'jenkins-acess', url: 'https://github.com/etechstaff/sandbox.git']])
 			}
 		}
-		stage('armand1'){
+		stage('armand'){
 			steps{
 				echo "member 1: armand"
 			}
