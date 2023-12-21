@@ -28,7 +28,7 @@ pipeline {
         }
         stage('adding README FILE'){
             steps{
-                bash +x "cp  README.md demofolder"
+                sh "bash -x cp  README.md demofolder"
             }
         }
 	}
