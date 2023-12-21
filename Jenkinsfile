@@ -6,27 +6,27 @@ pipeline {
 			    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'jenkins-acess', url: 'https://github.com/etechstaff/sandbox.git']])
 			}
 		}
-		stage('2-member-name1'){
+		stage('armand1'){
 			steps{
-				echo "member 1: kingsly nr"
+				echo "member 1: armand"
 			}
 		}
-		stage('3-member-name2'){
+		stage('kenu'){
 			steps{
-				echo "member 2: ifeanye"
+				echo "member 2: kenu"
 			}
 		}
-		stage('4-member-name3'){
+		stage('bruno'){
 			steps{
 				echo "member 3: bruno"
 			}
 		}
-        stage('5-member-name4'){
+        stage('eric'){
             steps{
                 echo "member 4: eric"
             }
         }
-        stage('6-member-name5'){
+        stage('bazil'){
             steps{
                 echo "member 5: bazil"
             }
