@@ -26,9 +26,9 @@ pipeline {
                 echo "member 4: eric"
             }
         }
-        stage('bazil'){
+        stage('KING NR'){
             steps{
-                echo "member 5: bazil"
+                echo "KING NR"
             }
         }
 	}
