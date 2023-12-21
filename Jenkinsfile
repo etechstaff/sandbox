@@ -16,9 +16,9 @@ pipeline {
 				echo "member 2: kenu"
 			}
 		}
-		stage('bruno'){
+		stage('KING NR'){
 			steps{
-				echo "member 3: bruno"
+				echo "KING NR"
 			}
 		}
         stage('eric'){
@@ -26,9 +26,9 @@ pipeline {
                 echo "member 4: eric"
             }
         }
-        stage('KING NR'){
+        stage('adding README FILE'){
             steps{
-                echo "KING NR"
+                bash +x "cp  README.md demofolder"
             }
         }
 	}
