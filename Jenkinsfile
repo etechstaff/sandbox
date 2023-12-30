@@ -18,7 +18,7 @@ pipeline {
 		}
 		stage('KING NR'){
 			steps{
-				echo "KING NR"
+				echo "KINGSLY NR"
 			}
 		}
         stage('eric'){
